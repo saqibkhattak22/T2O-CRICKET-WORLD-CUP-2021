@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #10044a;
+  height: 100vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+}
+.navigation {
+  display: flex;
+  width: 100%;
+}
+.logo img {
+  height: 80px;
+  padding-left: 25px;
+}
+.nav {
+  display: flex;
+  background-color: #10044a;
+  width: 100%;
+}
+.nav li {
+  list-style: none;
+}
+.nav li a {
+  display: flex;
+  color: white;
+  padding: 20px 20px;
+  text-decoration: none;
+  line-height: 40px;
+  font-family: "Bebas Neue", cursive;
+  text-shadow: rgb(207, 190, 190) 1px 2px 4px;
+  letter-spacing: 1px;
+  font-size: 22px;
+}
+.nav li a:hover {
+  border-bottom: 1px solid cyan;
+  background-color: rgb(46, 46, 95);
+  color: cyan;
+
+  transition: 0.3s ease-in;
+}
+
+input {
+
+  margin-top: 28px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+ 
+}
+input[type="search"] {
+  margin-left: 20px;
+  width: 120px;
+}
+input[type="button"] {
+  margin: 0px 5px;
+  padding: 3px 16px;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.651);
+}
+
+input[type="button"]:hover {
+  background-color: red;
+  color: white;
+}
+
+input[type="search"]:hover {
+  color: white;
+}
+.signlogo a{
+  font-size: 40px;
+ color: white;
+ margin: 13px;
+ margin-left: 30px;
+ display: inline-block;
+}
+.content {
+  background-color: #10044a;
+  height: 100%;
+  width: 96.7%;
+  padding-left: 45px;
+}
+
+.h-1 {
+  font-size: 13px;
+  font-family: serif;
+  color: rgb(255, 255, 255);
+}
+h1 span {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px rgb(0, 255, 255);
+  font-size: 25px;
+}
+.content p {
+  font-family: "Zen Kurenaido", sans-serif;
+  font-size: 14px;
+}
+.content input {
+  background-color: rgb(175 17 1);
+  margin-top: 13px;
+  color: rgb(255, 255, 255);
+  letter-spacing: normal;
+  border-radius: 1px;
+  font-weight: bold;
+  border: none;
+}
+.contentplayer img {
+  margin-top: 9px;
+  box-shadow: rgb(24, 9, 241) 0px 0px 3px;
+  height: 340px;
+  width: 550px;
+  margin-left: 40px;
+  padding: 20px;
+}
+.contentplayer {
+  display: flex;
+}
+.a1 {
+  color: rgba(111, 53, 187, 0.76);
+  text-shadow: rgba(14, 93, 212, 0.568) 1px 0px 1px;
+  margin-left: 45px;
+}
+p {
+  color: rgb(236, 236, 236);
+  margin-left: 45px;
+}
+.pt-h1 {
+  color: white;
+  margin-left: 150px;
+  border-bottom: 1px solid cyan;
+  text-indent: 40%;
+}
+
+.content1 img {
+  margin-left: 150px;
+  display: flex;
+  height: 150px;
+  width: 250px;
+}
+.pi {
+  text-indent: 36%;
+}
+.t20pic img {
+  width: 100%;
+  margin-bottom: -4px;
+  margin-top: -4pxs;
+}
+
+.seebtn {
+  color: white;
+  text-decoration: none;
+  background-color: rgb(175 17 1);
+  padding: 9px 15px;
+  position: absolute;
+  right: 3%;
+  top: 135%;
+}
+.seebtn:hover {
+  transition: 0.6s ease-in;
+  background-color: red;
+}
+
+.sectiondownn {
+  width: 100%;
+  height: 150px;
+}
+.text-sec {
+  color: white;
+  margin: 30px;
+}
+.text-sec span {
+  color: red;
+  text-shadow: none;
+  font-size: 30px;
+}
+.text-sec a {
+  color: white;
+  background-color: rgb(175 17 1);
+  padding: 10px 17px;
+  text-decoration: none;
+  margin: 10px;
+  display: inline-block;
+}
+.text-sec a:hover {
+  background-color: red;
+}
+.text-sec img {
+  position: absolute;
+  top: 18%;
+  right: 0%;
+  height: 150px;
+  margin-left: 300px;
+  display: inline-block;
+}
+.spon{
+    margin-bottom: -4px;
+
+}
+.spon img{
+    width: 100%;
+    margin-bottom: 0px;
+}
+footer {
+  background-color: #eee;
+  height: 180px;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  font-family: serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  display: flex;
+  margin-top: 1px;
+  font-size: 10px;
+}
+
+.icon .fb i {
+  font-size: 26px;
+  margin: 0px;
+}
+.icon .fb i:hover {
+  color: #4267b2;
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: 1s ease-in;
+}
+.icon .fb {
+  color: black;
+  font-size: 26px;
+  margin: 10px;
+}
+.icon .tw {
+  color: black;
+  font-size: 26px;
+  margin: 10px;
+}
+.icon .tw i:hover {
+  color: #1da1f2;
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: 1s ease-in;
+}
+.icon .in {
+  color: black;
+  font-size: 26px;
+  margin: 10px;
+}
+.icon .in i:hover {
+  color: #fffc00;
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: 1s ease-in;
+}
+.icon .yo {
+  color: black;
+  font-size: 26px;
+  margin: 10px;
+}
+.icon .yo i:hover {
+  color: #ff0000;
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: 1s ease-in;
+}
+.ref a {
+  padding: 5px;
+  text-decoration: none;
+}
+.ref a:hover {
+  color: red;
+  padding: 5px;
+}
